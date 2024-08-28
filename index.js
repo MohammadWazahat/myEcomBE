@@ -21,8 +21,8 @@ const cookieParser = require("cookie-parser");
 const app = express();
 
 //Variable
-// const port = process.env.PORT || 3015;
-const port = 3015;
+const port = process.env.PORT || 3015;
+// const port = 3015;
 
 //Connection
 // connectMongoDb("mongodb://127.0.0.1:27017/myEcom");
