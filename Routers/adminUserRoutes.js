@@ -16,8 +16,8 @@ const {
 // Create request
 router.post("/users/myProducts/",handleCreateNewProduct); 
 //Read all request from mongodb  
-// router.get("/users/myProducts/",myAuthMiddle,handleGetAllProducts );
-router.get("/users/myProducts/",handleGetAllProducts );
+router.get("/users/myProducts/",myAuthMiddle,handleGetAllProducts );
+// router.get("/users/myProducts/",handleGetAllProducts );
 // only one request from mongodb To get single user data from mongodb file using id param
 router.get("/users/myProducts/:id", handleGetProductById);
 //Patch or Update request
